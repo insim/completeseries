@@ -6,5 +6,5 @@ services:
         VITE_GOOGLE_BOOKS_API_KEY: ${VITE_GOOGLE_BOOKS_API_KEY:-}
     image: complete-series-v2:local
     ports:
-      - "8080:80"
+      - "8228:80"
     restart: unless-stopped
